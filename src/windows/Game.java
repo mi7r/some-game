@@ -1,4 +1,5 @@
-package source.game;
+package windows;
+
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
