@@ -1,8 +1,12 @@
 package windows;
 
 
+import framework.ObjectId;
+import objects.TestObject;
+
 import java.awt.*;
 import java.awt.image.BufferStrategy;
+import java.util.Random;
 
 public class Game extends Canvas implements Runnable {
 
@@ -11,6 +15,19 @@ public class Game extends Canvas implements Runnable {
     private boolean running = false;
 
     private Thread thread;
+
+    Handler handler;
+
+    Random random = new Random();
+
+    private void init() {
+        handler = new Handler();
+
+        for (int i = 0; i < 50; i++) {
+
+            handler.addObject(new TestObject(random.nextInt(1280), random.nextInt(720), ObjectId.Test));
+        }
+    }
 
     public synchronized void start() {
         if (running)
@@ -25,6 +42,7 @@ public class Game extends Canvas implements Runnable {
 
     @Override
     public void run() {
+        init();
         long lastTime = System.nanoTime();
         double amountOfTicks = 60.0;
         double ns = 1000000000 / amountOfTicks;
@@ -53,6 +71,7 @@ public class Game extends Canvas implements Runnable {
     }
 
     private void tick() {
+        handler.tick();
 
     }
 
@@ -63,12 +82,14 @@ public class Game extends Canvas implements Runnable {
             return;
         }
         Graphics graphics = bufferStrategy.getDrawGraphics();
-        ////
+        ////////////////////////////////////////////////////
         graphics.setColor(Color.BLACK);
-        graphics.fillRect(0,0, getWidth(), getHeight());
-        //DRAW HERE
+        graphics.fillRect(0, 0, getWidth(), getHeight());
 
-        ////
+        handler.render(graphics);
+
+        //DRAW HERE
+        ////////////////////////////////////////////////////
         graphics.dispose();
         bufferStrategy.show();
 

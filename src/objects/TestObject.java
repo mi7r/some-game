@@ -8,7 +8,7 @@ import java.util.LinkedList;
 
 public class TestObject extends GameObject {
 
-    public TestObject(float x, float y) {
+    public TestObject(float x, float y, ObjectId test) {
         super(x, y);
     }
 
@@ -19,6 +19,8 @@ public class TestObject extends GameObject {
 
     @Override
     public void render(Graphics graphics) {
+        graphics.setColor(Color.RED);
+        graphics.fillRect((int)x,(int)y,32,32);
 
     }
 
