@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c96f2b-2c25-4093-a397-f13c000de60b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/framework/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/framework/ObjectId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/TestObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/source/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/source/game/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceInvader/source/game/Game$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceInvader/source/game/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceInvader/source/game/Window.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +46,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/windows/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+                <state relative-caret-position="293">
+                  <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -72,11 +70,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/objects/TestObject.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#209#210#0" expanded="true" />
@@ -127,10 +125,10 @@
         <option value="$PROJECT_DIR$/src/.gitignore" />
         <option value="$PROJECT_DIR$/src/source/game/Game.java" />
         <option value="$PROJECT_DIR$/src/source/game/Window.java" />
-        <option value="$PROJECT_DIR$/src/windows/Game.java" />
         <option value="$PROJECT_DIR$/src/framework/ObjectId.java" />
         <option value="$PROJECT_DIR$/src/framework/GameObject.java" />
         <option value="$PROJECT_DIR$/src/objects/TestObject.java" />
+        <option value="$PROJECT_DIR$/src/windows/Game.java" />
       </list>
     </option>
   </component>
@@ -155,18 +153,7 @@
             <path>
               <item name="SpaceInvader" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpaceInvader" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpaceInvader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpaceInvader" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpaceInvader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpaceInvader" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpaceInvader" type="b2602c69:ProjectViewProjectNode" />
@@ -202,7 +189,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Game (1)">
+    <configuration name="Game (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="windows.Game" />
+      <module name="SpaceInvader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="source.game.Game" />
       <module name="SpaceInvader" />
@@ -218,6 +218,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game (1)" />
         <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
@@ -233,16 +234,15 @@
       <option name="presentableId" value="Default" />
       <updated>1559675824674</updated>
       <workItem from="1559675827389" duration="1421000" />
-      <workItem from="1559677265857" duration="3148000" />
+      <workItem from="1559677265857" duration="4627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4569000" />
+    <option name="totallyTimeSpent" value="6048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1264" height="1415" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16584565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -253,7 +253,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289269" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,16 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/framework/ObjectId.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -382,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/TestObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
@@ -406,6 +396,16 @@
             <element signature="e#886#887#0" expanded="true" />
             <element signature="e#856#857#0" expanded="true" />
             <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/windows/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
